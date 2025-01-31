@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4AA04E</color>
+    <color name="secondary">#3F51B5</color>
+    <color name="primary_darker">#075E54</color>
+    <color name="primary_highlight">#4F4B2B83</color>
+    <color name="secondary_darker">#2F3C87</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="highlight">?android:attr/colorControlHighlight</color>
+    <color name="forgot_password">#756363</color>
+    <color name="app_title">#DDFEFEFF</color>
+    <color name="grey">#ECF1EC</color>
+    <color name="dark_grey">#12B5C1B5</color>
+    <color name="image_background">#f4f7f8</color>
+    <color name="image_background_featured">#E6D29B</color>>
+    <color name="btn_primary_ripple">#2DFFFFFF</color>
+    <color name="btn_secondary_ripple">#EE9083A8</color>
+    <color name="btn_primary_background">@color/primary</color>
+    <color name="btn_secondary_background">@color/grey</color>
+</resources>

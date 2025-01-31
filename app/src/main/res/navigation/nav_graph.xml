@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/chatsFragment">
+
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="com.mordentech.chatapp.ui.home.chats.ChatsFragment"
+        android:label="ChatApp"
+
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/updatesFragment"
+        android:name="com.mordentech.chatapp.ui.home.updates.UpdatesFragment"
+        android:label="Updates"
+        tools:layout="@layout/fragment_updates" />
+    <fragment
+        android:id="@+id/communitiesFragment"
+        android:name="com.mordentech.chatapp.ui.home.communities.CommunitiesFragment"
+        android:label="Communities"
+        tools:layout="@layout/fragment_communities" />
+    <fragment
+        android:id="@+id/callsFragment"
+        android:name="com.mordentech.chatapp.ui.home.calls.CallsFragment"
+        android:label="Calls"
+        tools:layout="@layout/fragment_calls" />
+</navigation>
