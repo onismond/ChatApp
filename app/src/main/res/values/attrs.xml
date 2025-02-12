@@ -2,4 +2,7 @@
 <resources>
     <attr name="backgroundColor" format="color"/>
     <attr name="bottomSeparatorColor" format="color"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="newMesssageBackgroundColor" format="color"/>
+    <attr name="chatBackgroundColor" format="color"/>
 </resources>

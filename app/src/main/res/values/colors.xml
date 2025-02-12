@@ -17,6 +17,8 @@
     <color name="app_title">#DDFEFEFF</color>
     <color name="grey">#ECF1EC</color>
     <color name="dark_grey">#12B5C1B5</color>
+    <color name="dark_background">#30364B36</color>
+    <color name="white_chat_background">#D4CED9CE</color>
     <color name="image_background">#f4f7f8</color>
     <color name="image_background_featured">#E6D29B</color>>
     <color name="btn_primary_ripple">#2DFFFFFF</color>

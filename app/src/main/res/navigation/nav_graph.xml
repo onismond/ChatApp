@@ -10,7 +10,11 @@
         android:name="com.mordentech.chatapp.ui.home.chats.ChatsFragment"
         android:label="ChatApp"
 
-        tools:layout="@layout/fragment_chats" />
+        tools:layout="@layout/fragment_chats" >
+        <action
+            android:id="@+id/action_chatsFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
     <fragment
         android:id="@+id/updatesFragment"
         android:name="com.mordentech.chatapp.ui.home.updates.UpdatesFragment"
@@ -26,4 +30,9 @@
         android:name="com.mordentech.chatapp.ui.home.calls.CallsFragment"
         android:label="Calls"
         tools:layout="@layout/fragment_calls" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.mordentech.chatapp.ui.home.chats.chat.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
 </navigation>

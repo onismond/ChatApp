@@ -15,5 +15,8 @@
         <!-- Customize your theme here. -->
         <item name="backgroundColor">@color/white</item>
         <item name="bottomSeparatorColor">@color/grey</item>
+        <item name="titleColor">@color/black</item>
+        <item name="newMesssageBackgroundColor">@color/white</item>
+        <item name="chatBackgroundColor">@color/white_chat_background</item>
     </style>
 </resources>

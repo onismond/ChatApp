@@ -13,7 +13,10 @@
         <item name="android:statusBarColor">@color/black</item>
         <item name="android:windowLightStatusBar">false</item>
         <!-- Customize your theme here. -->
-        <item name="backgroundColor">@color/black</item>
+        <item name="backgroundColor">@color/dark_background</item>
         <item name="bottomSeparatorColor">@color/dark_grey</item>
+        <item name="titleColor">@color/white</item>
+        <item name="newMesssageBackgroundColor">@color/dark_grey</item>
+        <item name="chatBackgroundColor">@color/dark_grey</item>
     </style>
 </resources>

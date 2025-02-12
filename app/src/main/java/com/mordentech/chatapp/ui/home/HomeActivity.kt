@@ -45,4 +45,8 @@ class HomeActivity : AppCompatActivity(), KodeinAware {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
 
+    fun setBottomNavigationVisibility(visibility: Int){
+        binding.bottomNavigationView.visibility = visibility
+    }
+
 }
